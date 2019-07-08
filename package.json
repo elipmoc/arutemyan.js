@@ -1,0 +1,19 @@
+{
+  "name": "arutemyan",
+  "version": "1.0.0",
+  "description": "arutemyan arutemyan arutemyan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elipmoc/arutemyan.js.git"
+  },
+  "author": "elipmoc <relipmoc101@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elipmoc/arutemyan.js/issues"
+  },
+  "homepage": "https://github.com/elipmoc/arutemyan.js#readme"
+}

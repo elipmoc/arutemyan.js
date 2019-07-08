@@ -10,6 +10,8 @@ class Arutemyan {
     get isThursday() { return MokukMoku.isThursday(); }
     // もくもくもくようびを文字列で取得
     generateMokuMoku(description) { return MokukMoku.generateMokuMoku(description, "@" + this.name) }
+    // 年齢を取得
+    get age() { return 10; }
 }
 
 module.exports = Arutemyan;

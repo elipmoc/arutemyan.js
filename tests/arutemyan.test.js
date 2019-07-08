@@ -21,7 +21,7 @@ test('check Arutemyan generateMokuMoku', () => {
 
     const expectValue = `${description}もくもくもくようびが@arutemyanの頸椎を締め上げる
 　　　 ╭◜◝  ͡  ◜◝╮
-　　ðª( ¨̮  ðª　 )
+　　💪( ¨̮  💪　 )
 　　     人　    Ｙ
 　　　(　ヽ　ﾉ
 　　　人　 Ｙ
@@ -33,3 +33,7 @@ test('check Arutemyan generateMokuMoku', () => {
     expect(arutemyan.generateMokuMoku(description)).toBe(expectValue);
 })
 
+test('get Arutemyan age', () => {
+    const arutemyan = new Arutemyan();
+    expect(arutemyan.age).toBe(10);
+})
